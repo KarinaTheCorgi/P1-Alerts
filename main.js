@@ -2,7 +2,7 @@
 // https://erau.teamdynamix.com/TDWebApi/api/auth/loginsso
 
 
-token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InNvbGlzazNAZXJhdS5lZHUiLCJ0ZHhfZW50aXR5IjoiMiIsInRkeF9wYXJ0aXRpb24iOiIxOCIsIm5iZiI6MTczNjk2MzcxNSwiZXhwIjoxNzM3MDUwMTE1LCJpYXQiOjE3MzY5NjM3MTUsImlzcyI6IlREIiwiYXVkIjoiaHR0cHM6Ly93d3cudGVhbWR5bmFtaXguY29tLyJ9.IX9ZZDOpSQT2w2uvmHpZDoJaOzRCnpg5G7qEPivo3t0';
+token = '';
 url = 'https://erau.teamdynamix.com/TDWebApi/api/';
 apiID = '30/'
 reportID = 6261; // custom karina report for most recent p1
@@ -120,7 +120,7 @@ async function triggerArduino(port) {
 function playVideo() {
     // win command
     // havent tested the /fullscreen, if doesnt work - remove it
-    let commanc = `start vid.mp4 /fullscreen`;
+    let command = `start vid.mp4 /fullscreen`;
     // mac command
     // let command = `open -a VLC vid.mp4`;
     let { exec } = require('child_process');
