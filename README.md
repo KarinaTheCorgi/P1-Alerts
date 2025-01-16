@@ -5,3 +5,9 @@ Update the key:
   4. Paste Key into the token var in main
 
 yippee
+
+
+Node JS modules:
+ - csv-writer
+ - csv-parser
+ - serialport
